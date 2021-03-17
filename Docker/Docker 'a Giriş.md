@@ -92,3 +92,5 @@ Docker Swarm, Docker platformu için konteyner orkestrason aracıdır. Veritaban
 |docker exec <container_id> <command>|Çalışan bir Container içinde bir komut koşturmak için kullanılır|
 |docker exec -it <container_id> /bin/bash|Çalışan bir Container içinde terminal açmak için kullanılır. İlgili Image’da /bin/bash bulunduğu varsayımı ile|
 |docker attach <container_id>|Önceden detached modda -d başlatılan bir Container’a attach olmak için kullanılır|
+
+https://www.argenova.com.tr/docker-nedir-ve-nasil-kullanilir
