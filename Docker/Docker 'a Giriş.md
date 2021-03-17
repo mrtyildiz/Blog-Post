@@ -20,8 +20,8 @@
 |docker rm <container_id>||
 |docker rm -v <container_id>||
 |docker rm -f <container_id>||
-|docker rmi <image_id|image_name>||
-|docker rmi -f <image_id|image_name>||
+|docker rmi <image_id/image_name>||
+|docker rmi -f <image_id/image_name>||
 |docker info||
 |docker inspect <container_id>||
 |docker inspect <image_id|image_name>||
