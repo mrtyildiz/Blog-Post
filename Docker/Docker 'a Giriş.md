@@ -12,7 +12,7 @@
 |docker ps -aq||
 |docker pull <repository_name>/<image_name>:<image_tag>||
 |docker top <container_id>||
-|docker run -it <image_id|image_name> CMD||
+|docker run -it <image_id/image_name> CMD||
 |docker pause <container_id>||
 |docker unpause <container_id>||
 |docker stop <container_id>||
@@ -24,7 +24,7 @@
 |docker rmi -f <image_id/image_name>||
 |docker info||
 |docker inspect <container_id>||
-|docker inspect <image_id|image_name>||
+|docker inspect <image_id/image_name>||
 |docker rm $(docker ps -aq)||
 |docker stop $(docker ps -aq)||
 |docker rmi $(docker images -aq)||
