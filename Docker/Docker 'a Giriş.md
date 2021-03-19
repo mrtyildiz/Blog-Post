@@ -3,34 +3,20 @@
 ## Docker Nedir?
 
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Docker/img/Docker_logo.svg.png)
+Docker Konteyner teknolojisini kullanarak yazılım geliştirme teknolojisinde kullanılmaya başlayan yeni bir teknolojidir.
+Docker, yazılım geliştirme ekiplerinin her yerde uygulamaların oluşturulmasına ve yönetilmesini daha güvenli hale gelmesine olanak sağlamaktadır.
 
-Son beş yıl içerisinde BT endüstürisinin herhangi bir yerindeyseniz , büyük olasılıkla konteyner ve konteyner platformu olan Docker’ı duymuşsunuzdur. Docker ve konteynerlar, yazılım geliştirme ve teslimatında çığır açan bir yazılım çalıştırmanın yeni bir yoludur.
- 
-Docker, geliştirme ekiplerinin her yerde uygulamalar oluşturup yönetmesine ve güvenli hale getirmesine olanak tanıyan yeni bir teknolojidir.
- 
-Konteyner kavramını açıklamadan Docker’ı açıklamak mümkün değil , bu yüzden konteynerların nasıl çalıştığına bir göz atalım.
-Konteyner ve konteynerleştirme neden önemlidir?
-Gördüğümüz bu standartları tanımlanmış metal kutucuk olmadan önce lojistik endüstrisi aklında bir sürü problem ve soru vardı;
-*Taşımak istediğim ürünüm diğer ürünlerden etkilenecek mi? Daha hafif taşınan ürünler ağırların altında ezilecek mi?
-*Birçok farklı ürün var her ürün için farklı farklı taşıma yöntemleri var her ürünüm için ayrı bir araç mı gerekli?
-*Ya çuvallarım başka birinin çuvalları ile karışırsa üretim oranım ile teslimat oranım aynı çıkmazsa?
-İşte konteynerlar sayesinde bunların hepsi çözüme ulaşmış oldu. Boyutları ve standartları herkes tarafından bilinen bu metal yığınlarının içine istediğiniz gibi kendi ürünlerinizi yerleştirebilirsiniz. İşte Docker da aynı yolu izler.
-Docker ve Konteynerlar, yazılım endüstirisinde devrim yarattı ve beş yıl içerisinde bir araç ve platform olarak popülaritesi hızla arttı.
+Docker teknolojisindeki temel mantık konteyner teknolojisinden gelmektedir. Bu mantığa uygun olarak oluşturulan konteynerlar tek bir işin yapılması için oluşturulur.
+örneğin bir apache konteyner oluşturulduğunda sadece o konteyner apache server olarak kullanılmaktadır.
+Sanallaştırma mantığını uygun oluşturulan konteynerlar arasında iç bir network oluşturmak münkündür.
+Bu durum konteylar oluşuturularak kodun çalıştırılacağı oluşturulması ve istendiği zaman farklı ortamlarda yeniden kullanılmasına hazır hale getirmektedir.
 
-VM (Virtual Machine)
-*OS : Tam işletim sistemi
-*İzolasyon : Yüksek
-*Çalışır hale gelmesi : Dakikalar
-*Versiyonlama : Yok
-*Kolay paylaşılabilirlik : Düşük
-Docker
-*OS : Küçültülmüş işletim sistemi imajı
-*İzolasyon : Daha düşük
-*Çalışır hale gelmesi : Saniyeler
-*Versiyonlama : Yüksek
-*Kolay paylaşılabilirlik : Yüksek
-İki sanallaştırma yaklaşımı açısından bakarsak ikisinin birbirlerine göre avantaj ve dezavantajları mevcut . Ancak , Docker yönünden bakıldığında bazı avantajların kritik olduğunu söyleyebiliriz. 
-Bu tabloyu inceledikten sonra artık şu soruyu sorabiliriz “Neden Docker?"
+Docker 'ın temelde konteyner mantığına dayandığını söyledik peki bu durum diğer sanallaştırma teknolojisine göre bize sağladığı ayrıcalıklar nelerdir?
+Docker 'ın bize sağlamış olduğu faydalar aşağıdaki gibidir;
+ * Klasik sanallaştırma teknolojilerinde tam bir işletim sistemi kullanılmaktadır. Docker 'da ise küçültülmüş bir imaj kullanılmaktadır.
+ * Kurulum maliyeti klasik sanallaştırma teknolojilerinde dakikalardadır. Docker bu durum saniyelere kadar düşürülmüştür.
+ * Paylaşılabilirlik/Taşınabilirlik konusunda ise Docker konteyner yapısına sahip olduğu için öne çıkmaktadır.
+
 
 ## Neden Docker?
 Docker, yazılım teslim ve dağıtımı için sunduğu olanaklar sebebiyle çok fazla popülerdir. Birçok sorun ve verimsizlik durumları konteynerlerla çözülür.
