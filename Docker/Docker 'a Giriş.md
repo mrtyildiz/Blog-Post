@@ -19,27 +19,21 @@ Docker 'ın bize sağlamış olduğu faydalar aşağıdaki gibidir;
 
 
 ## Neden Docker?
-Docker, yazılım teslim ve dağıtımı için sunduğu olanaklar sebebiyle çok fazla popülerdir. Birçok sorun ve verimsizlik durumları konteynerlerla çözülür.
-Bu popülaritenin 5 nedeni;
+Docker teknolojisinin popülerleşmesinin nedenleri arasında birçok sorun ve verimsizlik durumlarına konteyner teknolojisi çözüm sunmasıdır.
+Docker 'ın popülaritesinin nedenlerini aşağıdaki gibi sıralayabiliriz;
 
- * Kullanım Kolaylığı
-Docker’ın popülaritesinin büyük bir kısmı, kullanımının ne kadar kolay olmasındadır. Docker’ın temelini konteynerların nasıl oluşturulacağını ve yönetileceğini hızlı bir şekilde öğrenebilirsiniz. Docker açık kaynak kodludur , bu nedenle başlamak için tek yapmanız gereken Mac/Windows veya Linux gibi işetim sistemlerine sahip Hyper-V desteğine sahip olan bir bilgisayarınızın olması.
+* Docker öğrenilmesi kolay bir yapıya sahiptir. Bunun yanı sıra açık kaynak olması ile Docker kullanmak için tek ihtiyaçınız olan Hyper-V desteğine sahip olan bir bilgisayardır.
 
+* Docker Konteyner teknolojisine sahip olması sayesinde daha düşük donanımlar üzerinde çalışabilmektedir. Bu sayede ciddi bir tasarruf sağlanabilmekte ve maliyet düşürülebilmektedir.
 
-* Sistemlerin daha hızlı ölçeklendirilmesi
-Konteynerlar, veri merkezi operatörlerinin çok daha fazla iş yükünü daha az donanıma sığdırmasına izin verir. Paylaşılan donanım, daha düşük maliyet anlamına gelir. Operatörler bu sayede tasarruf edebilir maliyeti düşürebilirler.
+* Yazlımlar için uygun bir test ortamlarını oluşturulmasına ve bu ortamların istenildiğinde taşına bilmesine olanak tanır.
 
-* Daha iyi yazılım teslimatı
-Konteynerları kullanmak , yazılım dağıtımını da verimli hale getirebilir. Konteynerlar portatiftir. Ayrıca tamamen bağımsızdır. Konteynerlar izole edilmiş bir disk birimi içerir. Bu birim, çeşitli ortamlara geliştirilip dağıtıldıkça konteynerla birlikte gider. Yazılım bağımlılıkları(kütüphaneler , çalışma zamanları, vb.) kapla birlikte
-gönderilir.
+* Docker Yazılım tabanlı ağlarını (SDN) desteklemektedir. CLI ve Engine, yönlendiricilere dokunmadan konteynerlar için yalıtılmış ağlar tanımlamasına olanak sağlamaktadır. Bu ağ yapısı yapılandırma dosyaları ile tanımlanabilmektedir. Bu güvenlik için önemli bir avantajdır.
 
-* Yazılım tanımlı ağ
-Docker , yazılım tanımlı ağları destekler. CLI ve Engine , operatörlerin tek bir yönlendiriciye dokunmadan konteynerlar için yalıtılmış ağlar tanımlamasına olanak tanır. Geliştiriciler ve operatörler gelişmişkarmaşık ağlara sahip sistemler tasarlayabilir ve yapılandırma dosyalarında ağları tanımlayabilir. Bu bir güvenlik avantajıdır.
+* Mikro hizmet mimarisine uygun olarak çalışması docker popülerliğini olumlu yönde etkilemiştir.
 
-* Mikro hizmet mimarisinin yükselişi
-Mikro hizmetler , genellikle HTTP ve HTTPS üzerinden erişilen basit işlevlerdir. Mikro hizmet mimarisinin yükselişi Docker’ın popülaritesini olumlu yönde etkiledi. Mikro hizmetler bir sistemi bağımsız olarak konuşlandırılabilecek işlevlere böler. Konteynerlar, mikro hizmetler için müthiş makinelerdir.
- 
 Bir konteyner, diğer işlemlerden izole edilen özel bir işlem türüdür. Konteynerlara başka hiçbir işlemin erişemediği kaynaklar atanır ve bunlara açıkça atanmamış kaynaklara erişemezler.
+
 
 Docker Engine
 Docker Engine, uygulamalarınızı oluşturmak ve kaplamak için açık kaynaklı bir konteyner teknolojisidir. Dockerfile veya “docker-compose.yml” ‘den bilgileri alarak imajları oluşturur ve çalıştırır . Docker CLI üzerinden bir “docker” komutunu kullandığında yapılması gereken işlemleri yapması için Docker Engine ile iletişime geçer.
