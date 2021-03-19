@@ -21,16 +21,22 @@ Docker 'ın bize sağlamış olduğu faydalar aşağıdaki gibidir;
 ## Neden Docker?
 Docker, yazılım teslim ve dağıtımı için sunduğu olanaklar sebebiyle çok fazla popülerdir. Birçok sorun ve verimsizlik durumları konteynerlerla çözülür.
 Bu popülaritenin 5 nedeni;
-1.Kullanım Kolaylığı
+
+ * Kullanım Kolaylığı
 Docker’ın popülaritesinin büyük bir kısmı, kullanımının ne kadar kolay olmasındadır. Docker’ın temelini konteynerların nasıl oluşturulacağını ve yönetileceğini hızlı bir şekilde öğrenebilirsiniz. Docker açık kaynak kodludur , bu nedenle başlamak için tek yapmanız gereken Mac/Windows veya Linux gibi işetim sistemlerine sahip Hyper-V desteğine sahip olan bir bilgisayarınızın olması.
-2. Sistemlerin daha hızlı ölçeklendirilmesi
+
+
+* Sistemlerin daha hızlı ölçeklendirilmesi
 Konteynerlar, veri merkezi operatörlerinin çok daha fazla iş yükünü daha az donanıma sığdırmasına izin verir. Paylaşılan donanım, daha düşük maliyet anlamına gelir. Operatörler bu sayede tasarruf edebilir maliyeti düşürebilirler.
-3. Daha iyi yazılım teslimatı
+
+* Daha iyi yazılım teslimatı
 Konteynerları kullanmak , yazılım dağıtımını da verimli hale getirebilir. Konteynerlar portatiftir. Ayrıca tamamen bağımsızdır. Konteynerlar izole edilmiş bir disk birimi içerir. Bu birim, çeşitli ortamlara geliştirilip dağıtıldıkça konteynerla birlikte gider. Yazılım bağımlılıkları(kütüphaneler , çalışma zamanları, vb.) kapla birlikte
 gönderilir.
-4. Yazılım tanımlı ağ
+
+* Yazılım tanımlı ağ
 Docker , yazılım tanımlı ağları destekler. CLI ve Engine , operatörlerin tek bir yönlendiriciye dokunmadan konteynerlar için yalıtılmış ağlar tanımlamasına olanak tanır. Geliştiriciler ve operatörler gelişmişkarmaşık ağlara sahip sistemler tasarlayabilir ve yapılandırma dosyalarında ağları tanımlayabilir. Bu bir güvenlik avantajıdır.
-5. Mikro hizmet mimarisinin yükselişi
+
+* Mikro hizmet mimarisinin yükselişi
 Mikro hizmetler , genellikle HTTP ve HTTPS üzerinden erişilen basit işlevlerdir. Mikro hizmet mimarisinin yükselişi Docker’ın popülaritesini olumlu yönde etkiledi. Mikro hizmetler bir sistemi bağımsız olarak konuşlandırılabilecek işlevlere böler. Konteynerlar, mikro hizmetler için müthiş makinelerdir.
  
 Bir konteyner, diğer işlemlerden izole edilen özel bir işlem türüdür. Konteynerlara başka hiçbir işlemin erişemediği kaynaklar atanır ve bunlara açıkça atanmamış kaynaklara erişemezler.
