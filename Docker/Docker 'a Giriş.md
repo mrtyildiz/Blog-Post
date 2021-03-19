@@ -2,6 +2,8 @@
 
 ## Docker Nedir?
 
+![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Docker/img/Docker_logo.svg.png)
+
 Son beş yıl içerisinde BT endüstürisinin herhangi bir yerindeyseniz , büyük olasılıkla konteyner ve konteyner platformu olan Docker’ı duymuşsunuzdur. Docker ve konteynerlar, yazılım geliştirme ve teslimatında çığır açan bir yazılım çalıştırmanın yeni bir yoludur.
  
 Docker, geliştirme ekiplerinin her yerde uygulamalar oluşturup yönetmesine ve güvenli hale getirmesine olanak tanıyan yeni bir teknolojidir.
