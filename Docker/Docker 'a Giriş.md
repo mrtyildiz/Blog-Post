@@ -32,20 +32,15 @@ Docker 'ın popülaritesinin nedenlerini aşağıdaki gibi sıralayabiliriz;
 
 * Mikro hizmet mimarisine uygun olarak çalışması docker popülerliğini olumlu yönde etkilemiştir.
 
-Bir konteyner, diğer işlemlerden izole edilen özel bir işlem türüdür. Konteynerlara başka hiçbir işlemin erişemediği kaynaklar atanır ve bunlara açıkça atanmamış kaynaklara erişemezler.
+Docker kullanımında bilinmesi gereken kavramlar aşağıdaki gibidir;
 
+* Docker Engine, açık kaynaklı bir konteyner teknolojisidir. Dockerfile veya docker-compose.yml 'den alınan bilgiler doğrultusunda imajlar oluşturulur ve çalıştırılır. Docker CLI üzerinden bir "docker" komutu kullanıldığında yapılması gereken işlemlerin yapılması için Docker engine ile iletişime geçer.
 
-* Docker Engine
-Docker Engine, uygulamalarınızı oluşturmak ve kaplamak için açık kaynaklı bir konteyner teknolojisidir. Dockerfile veya “docker-compose.yml” ‘den bilgileri alarak imajları oluşturur ve çalıştırır . Docker CLI üzerinden bir “docker” komutunu kullandığında yapılması gereken işlemleri yapması için Docker Engine ile iletişime geçer.
+* Docker Compose, çoklu mikromimariye sahip olan yapıların kurulmasına olanak sağlayan docker teknolojisidir. "docker-compose.yml" dosyası ile tüm servislerin conteynerların tek yerden konfigüre etmemize olanak sağlar.
+* Docker Machine, sanal ana bilgisayarlara Docker Engine’i yüklemenizi ve ana bilgisayarları “docker-machine” komutlarıyla yönetmenizi sağlayan bir araçtır. Docker, içerisinde birden fazla Docker Engine motoru yönetilebilir.
+* Docker Swarm, konteyner orkestrasyon aracıdır. Büyük kapsama sahip olan olan uygulamaları Docker Swarm ile yönetilir kolaylıkla ölçeklenebilir.
 
-* Docker Compose
-Docker Compose, çok kaplamalı Docker uygulamalarını tanımlamak ve çalıştırmak için bir araçtır . Compose ile uygulamanızın hizmetlerini yapılandırmak için bir YAML dosyası kullanırsınız. Ardından, tek bir komutla, tüm hizmetleri yapılandırmanızdan oluşturur ve başlatırsınız. Docker Compose, çoklu mikro servisler , veritabanları ve benzeri bağımlılıklardan oluşan ve yapıların çalıştırılması için kullanılır . “docker-compose.yml”, gerekli olan tüm servisleri tek bir yerden konfigüre etmemize ve hepsini tek bir komut ile oluşturup, çalıştırmamızı sağlar.
-
-* Docker Machine
-Docker Machİne, sanal ana bilgisayarlara Docker Engine’i yüklemenizi ve ana bilgisayarları “docker-machine” komutlarıyla yönetmenizi sağlayan bir araçtır. Docker, içerisinde birden fazla Docker Engine motoru yönetilebilir. Docker Machine, Docker Engine’i uzaktaki yer alan makinelerine yüklemenize ve kendi bilgisayarınızdan, uzaktaki yer alan Docker Engine motorunu yönetilmesini sağlar.
-
-* Docker Swarm
-Docker Swarm, Docker platformu için konteyner orkestrason aracıdır. Veritabanı, uygulama sunucuları, web sunucuları gibi bileşenlerden oluşan büyük kapsama sahip uygulamalarınızı Docker Swarm ile yönetebilir, yük altında kolaylıkla ölçekleme yapılabilmektedir.
+Docker kullanımın da işinize yarayabilecek docker komutları aşağıdaki gibidir.
 
 ## Docker Nasıl Çalışır?
 ## Docker Nerede Kullanılır?
