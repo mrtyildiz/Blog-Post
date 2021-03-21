@@ -34,6 +34,9 @@ else
 fi
 
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/4.PNG)
+
+Bash script for döngüsü aşağıdaki görselde görünmektedir.
+
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/5.PNG)
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/6.PNG)
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/7.PNG)
