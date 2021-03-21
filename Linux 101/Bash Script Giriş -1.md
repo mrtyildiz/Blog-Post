@@ -12,6 +12,9 @@ echo komutu ekrana yazı yazdırma için kullanılan komuttur. Bash script yazı
 Dosya izinleri belirlendikten sonra bash script dosyası **"./bashscript_Adı"** veya **"bash bashscript_Adı"** yazılarak çalışıtırılır.
 
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/1.PNG)
+
+Bash script 'de değişken kullanımı aşağıdaki görselde görülmektedir.
+
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/2.PNG)
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/3.PNG)
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/4.PNG)
