@@ -22,12 +22,19 @@ Bash script 'de değişken kullanımı aşağıdaki görselde görülmektedir.
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/3.PNG)
 
 Terminal üzerinden text editör kullanmadan **"cat > bash-Script.sh"** komutu kullanılarak dosya üzerine yazılabilir. Dosyayı kapatmak ve kaydetmek için **"ctrl + D"** kullanılır.
+
 if kullanımı aşağıdaki gibidir;
+
 if [condition]
+
 then
-    //if block code
+
+//if block code
+
 else
-   // else block code
+ 
+ // else block code
+
 fi
 
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/4.PNG)
