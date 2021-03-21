@@ -16,7 +16,20 @@ Dosya izinleri belirlendikten sonra bash script dosyası **"./bashscript_Adı"**
 Bash script 'de değişken kullanımı aşağıdaki görselde görülmektedir.
 
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/2.PNG)
+
+**"read"** komutu kullanılarak dışarından veri alınması için kullanılır. Alınan bu veri **NAME** adlı değişkene atanır. Bu değişkenin kullanılması için **"$"** işareti kullanılır.
+
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/3.PNG)
+
+Terminal üzerinden text editör kullanmadan **"cat > bash-Script.sh"** komutu kullanılarak dosya üzerine yazılabilir. Dosyayı kapatmak ve kaydetmek için **"ctrl + D"** kullanılır.
+if kullanımı aşağıdaki gibidir;
+if [condition]
+then
+    //if block code
+else
+   // else block code
+fi
+
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/4.PNG)
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/5.PNG)
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/6.PNG)
