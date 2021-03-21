@@ -26,15 +26,11 @@ Terminal üzerinden text editör kullanmadan **"cat > bash-Script.sh"** komutu k
 if kullanımı aşağıdaki gibidir;
 
 if [condition]
-
 then
-
 //if block code
 
 else
- 
  // else block code
-
 fi
 
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/4.PNG)
