@@ -1,5 +1,11 @@
 # Bash Script Giriş
 
+## Bash Nedir?
+
+Bash, Brian Fox tarafından GNU Projesi için Bourne kabuğuna özgür yazılım alternatifi olarak yazılmış, Unix ve benzeri işletim sistemlerinde kullanılan komut satırı kabuğu ve bu kabuğun betik dilidir. 
+Linux tabanlı işlemtim sistemlerinin temel komutlarını bilmek Bash script yazarken oldukça işimizi kolaylaştıracaktır.
+Bash öğrenirken uygulamalı gitmesi açısından Sana makine üzerinde bunun Ubuntu Server Windows ortamından SSH ile bağlandım.
+
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/1.PNG)
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/2.PNG)
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/3.PNG)
