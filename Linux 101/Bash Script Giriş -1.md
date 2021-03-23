@@ -38,6 +38,9 @@ fi
 Bash script for döngüsü aşağıdaki görselde görünmektedir.
 
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/5.PNG)
+Ping taraması (ICMP taraması olarak da bilinir), bir dizi IP adresi arasından hangisinin canlı ana bilgisayarlara (bilgisayarlar) eşleneceğini belirlemek için kullanılan temel bir ağ tarama tekniğidir . Tek bir ping size ağda belirli bir ana bilgisayarın olup olmadığını söyleyecektir, ping taraması birden çok ana bilgisayara gönderilen ICMP (İnternet Kontrol Mesajı Protokolü) ECHO isteklerinden oluşur . Belirli bir adres canlıysa, bir ICMP ECHO yanıtı döndürecektir. Ping taramaları, bir ağı taramak için kullanılan daha eski ve daha yavaş yöntemler arasındadır.
+
+Şimdi de bash script kullanılarak networkde bulunan canlı IPler tespit etmek için kullanılan script aşağıdaki gibidir.
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/6.PNG)
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/7.PNG)
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/8.PNG)
