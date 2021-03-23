@@ -42,5 +42,9 @@ Ping taraması (ICMP taraması olarak da bilinir), bir dizi IP adresi arasından
 
 Şimdi de bash script kullanılarak networkde bulunan canlı IPler tespit etmek için kullanılan script aşağıdaki gibidir.
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/6.PNG)
+
+openssl linux terminal komutu kullanılarak random parola üretmemize imkan sağlayan bir bash script örneği aşağıdaki gibidir.
+
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/7.PNG)
+Oluşturulan fonksiyonu basit bir şekile sadece ismini yazarak çalıştırılabilir.
 ![image](https://github.com/mrtyildiz/Blog-Post/blob/main/Linux%20101/img/8.PNG)
