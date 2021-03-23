@@ -1,0 +1,34 @@
+## pwd
+## cd
+## ls
+## cat
+## cp
+## mv
+## mkdir
+## rmdir
+## rm
+## touch 
+## locate
+## find
+## grep
+## sudo 
+## df
+## du
+## head
+## tail
+## diff
+## tar
+## chmod
+## chown
+## jobs
+## kill
+## ping 
+## wget
+## uname
+## top
+## history
+## man
+## echo
+## zip unzip
+## hostname
+## useradd userdel
