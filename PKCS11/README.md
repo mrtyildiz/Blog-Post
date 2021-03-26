@@ -5,3 +5,6 @@ Diğer bir konu ise pkcs'ye aşina olmak. Örneğin cryptaway'de bize hsm'den bi
 *Cryptaway'de çalışan servislerin, configlerinin incelenmesi. Hangi config ne için kullanılıyor bunun anlaşılması ve öğrenilmesi gerekiyor.
 
 Bu sayede kurulumda bir hata oldugu zaman, servislerin configlerine bakıldıgı zaman hata kolayca anlamlandırılabilir. Bu konuda müsait vakitlerde projenin kodlarını da inceleyebilir, dilerseniz yazılımcı arkadaslara da hangi config ne için kullanılıyor detaylı öğrenmek için sorabilirsiniz. Configlerin her birinde yapılan bir harf hatası kurulum hatalı olmasına sebep vereceğinden, her birinin anlamını bilmek büyük önem arz ediyor.
+
+
+https://developers.yubico.com/YubiHSM2/Usage_Guides/OpenSSL_with_pkcs11_engine.html
