@@ -2,7 +2,6 @@
 
 ## Docker Image Commands
 Docker üzerinde çalışan imajların taginin değiştirilmesi amacıyla kullanılan komuttur.
-
 * docker tag
 
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Docker/img/docker-tag.PNG?raw=true)
