@@ -1,6 +1,6 @@
 ## Docker Temel komutları - Part-2
 
-## DockerImage Commands
+## Docker Image Commands
 Docker üzerinde çalışan imajların taginin değiştirilmesi amacıyla kullanılan komuttur.
 
 * docker tag
