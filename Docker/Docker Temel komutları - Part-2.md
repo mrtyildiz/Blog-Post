@@ -77,3 +77,13 @@ docker üzerinde varolan container,image, volume ve neteorklerin silinmesine imk
 
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Docker/img/docker-prume.PNG?raw=true)
 
+
+
+## Docker Compose Commands
+* docker-compose build
+* docker-compose up
+* docker-compose ls
+* docker-compose start
+* docker-compose run
+* docker-compose rm
+* docker-compose ps
