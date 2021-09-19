@@ -47,3 +47,21 @@ docker üzerinde var olan imagelardan her hangi birinin silinmesi amacıyla kull
 * docker rmi
 
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Docker/img/docker-rmi.PNG?raw=true)
+
+
+## Docker Networking Commands
+
+Docker üzerinde yeni bir sana NIC (Network) oluşturulması amacıyla kullanılır
+* docker network create
+
+![](https://github.com/mrtyildiz/Blog-Post/blob/main/Docker/img/docker-network-inspect.PNG?raw=true)
+
+Docker üzerinde kurulum sonrasında yüklenen ve daha sonrasında oluşturulan bütün docker networklerinin görüntülenmesine olanak sunmaktadır.
+* docker network ls
+
+![](https://github.com/mrtyildiz/Blog-Post/blob/main/Docker/img/docker-network-inspect.PNG?raw=true)
+
+Docker üzerinde var olan networklerin özelliklerinin görüntülenmesi amacıyla docker inspect komutu kullanılır.
+* docker network inspect
+
+![](https://github.com/mrtyildiz/Blog-Post/blob/main/Docker/img/docker-network-inspect.PNG?raw=true)
