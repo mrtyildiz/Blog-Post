@@ -74,5 +74,6 @@ docker üzerinde varolan container,image, volume ve neteorklerin silinmesine imk
 * docker container prune
 * docker volume prune
 * docker network prune
+
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Docker/img/docker-prume.PNG?raw=true)
 
