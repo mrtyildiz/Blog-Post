@@ -65,3 +65,14 @@ Docker üzerinde var olan networklerin özelliklerinin görüntülenmesi amacıy
 * docker network inspect
 
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Docker/img/docker-network-inspect.PNG?raw=true)
+
+## Docker Prune Commands
+docker üzerinde varolan container,image, volume ve neteorklerin silinmesine imkan sağlayan komutlar aşağıdaki gibidir;
+
+* docker system prune
+* docker image prune
+* docker container prune
+* docker volume prune
+* docker network prune
+![](https://github.com/mrtyildiz/Blog-Post/blob/main/Docker/img/docker-prume.PNG?raw=true)
+
