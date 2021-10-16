@@ -19,3 +19,17 @@ Docker Swarm 'ın öne çıkan özellikleri aşağıdaki gibidir;
 * Load Balancing
 * Secure by default
 * Rolling updates
+
+
+
+Docker Swarm teknolojisi kullanılır iken temel komutlar aşağıdaki gibidir;
+
+* swarm init
+* swarm join
+* service create
+* service inspect
+* service ls
+* service rm
+* service scale
+* service ps
+* service update
