@@ -9,16 +9,16 @@ Docker Engine ile birlikte default olarak yüklenmektedir.
 
 Docker Swarm 'ın öne çıkan özellikleri aşağıdaki gibidir;
 
-* Cluster management integrated with Docker Engine
-* Decentralized Design
-* Declarative Service Model
-* Scaling
-* Desired state reconciliation
-* Multi-host networking
-* Service discovery
-* Load Balancing
-* Secure by default
-* Rolling updates
+* Cluster management integrated with Docker Engine: Docker Engine ile oluşturulan node 'lar yönetilebilir. Yönetimsel işlemler için harici hiçbir yazılıma ihtiyaç bulunmamaktadır.
+* Decentralized Design: Oluşuturulan imaj üzerinden birden fazla node 'lar oluşturulmuştur. 
+* Declarative Service Model: Bildirimlerin alınması ve sıraya konulması amacıyla kullanışlı bir teknolojidir. Örneğin mesaj kuyruğa alma hizmeti.
+* Scaling: Her hizmet için istenilen sayıda node oluşturulabilir. Node sayısı duruma göre büyütülebilir veya küçültülebilir.
+* Desired state reconciliation: oluşturulan nodelardan herhangi birinin çökmesi durumunda yerine yeni bir node 'u otomatik olarak oluşturulur.
+* Multi-host networking: Nodelara yeni bir ağ tanımlandığında otomatik olarak yeni ağ sistemine uyum göstermeye başlar.
+* Service discovery: DNS benzeri hizmetlerin otomatik olarak tanımasına olanak sağlar.
+* Load Balancing: Nodelar arasındaki sağlayacağı hizmetin ve dengenin belirlenmesine olanak tanınır.
+* Secure by default: Self-signed root sertifikası ve CA kök sertifikasının kullanılmasına imkan sunmaktadır.
+* Rolling updates: Herhangi bir sebeten dolayı hata yaşanması durumunda önceki sürüme geri dönülmesine imkan sunmaktadır.
 
 
 
