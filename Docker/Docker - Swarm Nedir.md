@@ -41,7 +41,7 @@ Docker Swarm teknolojisi kullanılır iken temel komutlar aşağıdaki gibidir;
 
 * service rm
 
-![](https://github.com/mrtyildiz/Blog-Post/blob/main/Docker/img/sswarm_rm.PNG?raw=true)
+![](https://github.com/mrtyildiz/Blog-Post/blob/main/Docker/img/swarm_rm.PNG?raw=true)
 
 * service scale
 
