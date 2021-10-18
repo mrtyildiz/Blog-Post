@@ -26,6 +26,9 @@ Docker Swarm teknolojisi kullanılır iken temel komutlar aşağıdaki gibidir;
 
 * swarm init
 * swarm join
+
+![](https://github.com/mrtyildiz/Blog-Post/blob/main/Docker/img/swarm_scale.PNG?raw=true)
+
 * service create
 * service inspect
 * service ls
