@@ -60,4 +60,7 @@ Docker service rm komutu oluşturulmuş olan swarm servisin silinmesi sağlamakt
 
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Docker/img/swarm_ps.PNG?raw=true)
 
+Oluşturmuş olduğumuz swarm servisi içerisinde gerekli değişikliklerinin yapılması amacıyla kullanılabilmesi amacıyla docker service update komutu kullanılmaktadır.
 * service update
+
+
