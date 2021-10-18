@@ -23,21 +23,30 @@ Docker Swarm 'ın öne çıkan özellikleri aşağıdaki gibidir;
 
 
 Docker Swarm teknolojisi kullanılır iken temel komutlar aşağıdaki gibidir;
-
+Yüklenmiş olan Docker engine içerisinde var olan docker swarm 'ın etkinleştirilmesi için
+aşağıdaki komutlar kullanılmaktadır.
 * swarm init
 * swarm join
 
+Docker swarm içerisinde yeni bir servis oluşturulması amacıyla "docker service create" komutu kullanılabilmektedir.
+Aşağıdaki örnekte httpd:latest imajı kullanılarak bir web servisi oluşturulmuştur.
 * service create
 
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Docker/img/swarm_create.PNG?raw=true)
+
+Docker service inspect komutu oluşturulmuş olan swarm servisin özelliklerinin görülmesine imkan sunmaktadır.
 
 * service inspect
 
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Docker/img/swarm_inspect.PNG?raw=true)
 
+Docker service ls komutu oluşturulmuş olan Swarm servislerinin görüntülenmesine ve hangi port üzerinde çalıştığının görülmesine imkan sunmaktadır.
+
 * service ls
 
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Docker/img/swarm_ls.PNG?raw=true)
+
+Docker service rm komutu oluşturulmuş olan swarm servisin silinmesi sağlamaktadır.
 
 * service rm
 
