@@ -5,6 +5,8 @@ Jenkins Continuous Integration (Sürekli Entegrasyon) yöntemi için kullanılan
 Yazılım geliştirme ve test süreçlerini otomatize etmemize imkan sağlamaktadır. Jenkins belirlenen kaynaktan projeye ulaşır ve istenen işlemleri otomatize etmemize imkan sağlamaktadır.
 Test süreçleri sonucunda oluşan çıktıları belirli kişilere iletmektedir. Bu sayede proje sürekli olarak test edilir ve hataların tespit edilmesi sağlanmakdır.
 
+![](https://github.com/mrtyildiz/Blog-Post/blob/main/Docker/img/swarm_create.PNG?raw=true)
+
 Jenkins kavramları aşağıdaki gibidir;
 
 * Job: Otomatize edilmesi istenilen işler burada belirtilir. Örneğin, job config üzerinden repository 'i çek, şartları build et, 
