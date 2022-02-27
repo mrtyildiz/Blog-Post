@@ -2,7 +2,7 @@
 
 Flask Framework python dili ile geliştirmiş bir web frameworküdür. Flask kullanılarak dinamik web sayfaları oluşturulabilir ve yönetilmesi sağlana bilmektedir. Bu yazımızda Flask web framework kullanılarak load-balancer işleminin nasıl yapılabileceği analatılmaktadır.
 
-![image](./1.png)
+![image](./img/1.png)
 
 Load-Balancer işleminde lab ortamının oluşturulması amacıyla docker teknolojisinden yararlanılacaktır. Bu amaç doğrultusunda imaj olarak kullancağımız python imajı "docker pull python" komutu kullanılarak indirilir. İndirilen imaj kullanılarak backend http server oluşturulması amaçıyla Dockerfile ve app.py dosyaları aşağıdaki gibidir.
 
