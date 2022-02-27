@@ -30,10 +30,10 @@ app.py:
 
 Oluşturulmuş olan Dockerfile ve app.py dosyaları docker üzerinde imaj oluşturulabilmesi için kullanılır. Docker üzerinde imaj oluşturma işlemi için "docker build . -t flaskbackend:latest" komutu kullanılır. Oluşturulan flaskbackend:latest imajının çalıştırılması amacıyla "docker run -it -d backendflask:latest" komutu kullanılır. 
 
-![image](./2.png)
+![image](./img/2.png)
 Load balancer işleminin başarılı olup olmadığının anlaşılması amacıyla ikinci bir http konteyner çalıştırılır. Çalıştırılan konteynerların IP adreslerinin öğrenilmesi amacıyla "docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' Konteyner_id"
 
-![image](./3.png)
+![image](./img/3.png)
 
 Yukarıda görülen IP adresleri arasında Load balancer işleminin yapılabilmesi aşağıdaki python script kullanılır.
 
@@ -57,7 +57,7 @@ Yukarıda görülen IP adresleri arasında Load balancer işleminin yapılabilme
 
 Bu script'te temel amaç kendisine gelen http isteklerini rastgelen bir biçinde 172.17.0.2 ve 172.17.0.3 IP adresli HTTP serverlara yönlendirmektedir. 
 
-![image](./4.png)
+![image](./img/4.png)
 
 ### Flask Web Server üzerinde SSL-Offloading İşlemi
 
@@ -81,10 +81,10 @@ Key üretilmeden İşlemin gerçekleştirilmesi:
 
 SSL-Ofloading işleminin sonuçlarının denenmesi amacıyla aşağıdaki görselde görülen senaryo docker ortamında oluşturulmuştur.
 
-![image](./5.png)
+![image](./img/5.png)
 
 Flask LoadBalancer Konteynırına HTTPS protokolü üzerinden istekler gönderilir. Gönderilen bu istekler load balancer özelliği ile HTTP protokolü üzerinden Flask HTTP Server konteynırlarına yönlendirilir.
 
-![image](./6.png)
+![image](./img/6.png)
 
 192.168.1.114 IP adresi üzerine gönderilen curl istekleri ekranda görüldüğü gibi iki docker konteynırı arasında dağıtılmaktadır.
