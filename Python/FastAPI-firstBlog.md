@@ -44,4 +44,4 @@ FastAPI 'nin güzel özelliklerinden biri olan /docs path ile yazmakta olduğunu
 
 /docs path benzer bir şekilde alternatif pathlerin görüntülenmesine imkan sunmaktadır.
 
-![](https://github.com/mrtyildiz/Blog-Post/blob/main/Python/img/5.png?raw=true)
+![](https://github.com/mrtyildiz/Blog-Post/blob/main/Python/img/6.png?raw=true)
