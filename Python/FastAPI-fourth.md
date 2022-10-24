@@ -22,4 +22,24 @@ Var olan objelerden herhangi birinin id adresi seçilir ve silinmesi amacıyla D
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Python/img/25.png?raw=true)
 Objenin silinip silinmediğinin kontrol edilmesi amacıyla API 'ye yeniden GET isteği gönderilir.
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Python/img/26.png?raw=true)
-Görselde görüldüğü gibi seçilmiş olan obje silinmiştir ve yazmış olduğumuz fonksiyon düzgün bir şekilde çalışmaktadır.
+Görselde görüldüğü gibi seçilmiş olan obje silinmiştir ve yazmış olduğumuz fonksiyon düzgün bir şekilde çalışmaktadır. Ancak olmayan bir ID adresi ile işlem yapılmak istendiğinde response olarak null geri dönüşü olmaktadır ve HTTP kodu olarak 200 dönmektedir. 
+![](https://github.com/mrtyildiz/Blog-Post/blob/main/Python/img/27.png?raw=true)
+
+Bu durumu engellemek amacıyla aşağıdaki gibi kodu yeniden düzenlememiz gerekmektedir. Burada her id bulunamadığında 404 olarak dönmekte ve bir uyarı dönmekteyiz. Bu duruma HTTPException neden olmaktadır.
+```
+@app.delete("/api/v1/users/{user_id}")
+async def delete_users(user_id: UUID):
+    for user in db:
+        if user.id == user_id:
+            db.remove(user)
+            return {"Remove Users": user.id}
+        else:
+            raise HTTPException(status_code = 404, detail=  "user with id: {user_id} does not exists")
+```
+Kodu ekledikten sonra konteynerın yeniden çalışması amacıyla konteyner restart edilir.
+![](https://github.com/mrtyildiz/Blog-Post/blob/main/Python/img/28.png?raw=true)
+
+Konteyner restart edildikten sonra Thunter Client uygulaması üzerinden DELETE method isteği tekrar gönderilir.
+![](https://github.com/mrtyildiz/Blog-Post/blob/main/Python/img/29.png?raw=true)
+
+Görselde de görüldüğü gibi ID 'i bulunmayan kullanıcıya ait bizim öngördüğümüz şekilde 404 olarak geri dönüş yapmaktadır.
