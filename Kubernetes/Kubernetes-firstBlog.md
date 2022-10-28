@@ -27,13 +27,16 @@ Kubernetes 'in çalışabileceği yerler;
 
 * API Server: Kubernetes içerisinde yönetim için kullanılan bir REST API 'dir
 * Kubernetes giriş noktasıdır.
+
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Kubernetes/img/3.png?raw=true)
 
 * ETCD: Cluster mimarisinde keyvalue store işlemi için kullanılmaktadır. Kubernetes'de Back-End kullanılmaktadır.
 * Cluster State(Durumu) ilgili verilerin HA olarak kullanılabilirlğini sağlamaktadır.
+
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Kubernetes/img/4.png?raw=true)
 
 * Scheduler: Slave node 'un görevlerini düzenler. Her bağımlı olan her slave node 'un kaynak kullanım bilgilerini depolamaktadır.
+
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Kubernetes/img/5.png?raw=true)
 
 * Controller: Tek işlemde birden çok Controller çalıştırır
