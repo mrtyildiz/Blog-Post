@@ -38,6 +38,7 @@ Kubernetes 'in çalışabileceği yerler;
 
 * Controller: Tek işlemde birden çok Controller çalıştırır
 * Kubernetes ile otomatik hale getirilen tasklar(görevler) oluşturulabilmektedir.
+
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Kubernetes/img/6.png?raw=true)
 
 ### Kubernetes İçerisinde Var Olan Kavramlar
