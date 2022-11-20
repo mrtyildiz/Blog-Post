@@ -35,12 +35,15 @@ spec:
         - containerPort: 80
 ```
 Örnekte görülen nginx-deployment isimli pod 80 nolu port adresini kullanabilecek şekilde tasarlanmıştır. [Buraya](https://kubernetes.io/docs/tasks/run-application/run-stateless-application-deployment/) tıklayarak örneğin web adresine ulaşabilirsiniz. Örnekte olan pod.yaml dosyasının çalıştırılması amacıyla "kubectl apply  -f pod.yaml" komutu kullanılmaktadır.
+
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Kubernetes/img/20.png?raw=true)
 
 Oluşturulmuş olan pod'a ait bütün bilgilerin görüntülenmesi amacıyla "kubectl describe pod <pod_adı>" komutu kullanılarak bilgiler elde edilmektedir.
+
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Kubernetes/img/21.png?raw=true)
 
 Çalışmakta olan podların içerisinde 80 portunda çalışmakta index.html görüntülenmesi amacıyla "kubectl -it <pod_adı> bash" komutu ile bir shell elde edilir. Elde edilen shell ile "curl http://localhost" komutu kullanılan servisin çalışma durumu belirlenir ve index.html içerisinde var olan bilgiler görüntülenmektedir.
+
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Kubernetes/img/22.png?raw=true)
 
 Görüldüğü gibi sadece pod içerisinde bulunan servise sadece local üzerinde bağlanabilmekteyiz. Servisi uzaktan erişelebilir hale getirilmesi amacıyla kubernetes üzerinde  port forwading işlemine tabi tutulması gerekmektedir.
@@ -52,6 +55,7 @@ Pod üzerinden çalışan servise host makinenin localinden ulaşılabilmesi ama
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Kubernetes/img/23.png?raw=true)
 
 Görselde görüldüğü gibi localhost(127.0.0.1)'dan 30080 'e yapılan her istek çalışmakta olan pod 'un 80 portuna yönlendirilmektedir. Bu isteğin kontrol edilmesi amacıyla browser üzerinden istekte bulunulur.
+
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Kubernetes/img/24.png?raw=true)
 
 Görselde görüldüğü gibi istek başarılı bir şekilde servise iletilmiştir.
@@ -59,6 +63,7 @@ Görselde görüldüğü gibi istek başarılı bir şekilde servise iletilmişt
 ## Kubernetes Services Kavramı 
 
 Bir önceki başlıkta gördüğümüz gibi birden fazla replica pod oluşturduğumuzda port yönlendirmeyi sadece belirli pod üzerinde gerçekleştirmekteyiz. Bu durum uygulamalarımızın sağlıklı bir şekilde çalışmasına engel olmaktadır. Kubernetes yapısı içerisinde replica podlara tek bir port adresi üzerinden uzaktan ulaşılabilmesi adına services kavramı ortaya çıkmaktadır. Bu kavramın daha iyi anlaşılması adına aşağıdaki görselde görüldüğü gibi;
+
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Kubernetes/img/25.png?raw=true)
 
 Browser üzerinden belirli port adresinde gönderilen istek ilk öncelikle services 'e gelmektedir. Services 'e gelen istek kubernetes mimarisinde en uygun olan replica pod 'a yönlendirilimektedir. Önceki örneğimizde iki adet replica'dan olan bir nginx pod 'u oluşturulmuştur. Servisin oluşturulması adına nginx-service.yaml dosyası oluşturulur.
