@@ -169,3 +169,5 @@ http POST localhost:80/items/ name=test
 http GET localhost:80/items/
 ```
 ![](https://github.com/mrtyildiz/Blog-Post/blob/main/Kubernetes/img/34.png?raw=true)
+
+Bu amaçla kullanmış olduğum kodlara [buradan](https://github.com/mrtyildiz/KubernetesTutorials) ulaşabilirsiniz.
