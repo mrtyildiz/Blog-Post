@@ -130,7 +130,7 @@ Oluşturulmuş olan secret 'ın silinmesi amacıyla "kubectl delete secret my-se
 
 ![](https://raw.githubusercontent.com/mrtyildiz/Blog-Post/main/Kubernetes/img/Kubernetes-ChatCPT/15.png)
 
-7. Bir Kubernetes ingress nasıl oluşturulur? Ingress nasıl silinir? /// soruyu tekrar yap
+7. Bir Kubernetes ingress nasıl oluşturulur? Ingress nasıl silinir?
 
 Kubernetes'te ingress, HTTP veya HTTPS üzerinden bir Kubernetes servisine yönlendirmeleri yapılandırmak için kullanılan bir kaynaktır. Ingress, belirli bir host ve yol için bir veya daha fazla hedef servis belirtebilir.
 
