@@ -15,6 +15,7 @@ Cevap: Kubernetes içerisinde var olan pod en küçük birim olarak bilinir ve u
 ![](https://raw.githubusercontent.com/mrtyildiz/Blog-Post/main/Kubernetes/img/Kubernetes-ChatCPT/3.png)
 
 Oluşturulmuş olan pod 'un görüntülenmesi amacıyla "kubectl get pod" komutu silinmesi amacıyla "kubectl delete pod <pod_name>" komutu kullanılır.
+
 ![](https://raw.githubusercontent.com/mrtyildiz/Blog-Post/main/Kubernetes/img/Kubernetes-ChatCPT/4.png)
 
 2. Bir Kubernetes deployment'ı nasıl oluşturursunuz? Deployment'ı nasıl güncellersiniz?
