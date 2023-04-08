@@ -1,1 +1,1 @@
-![](/IMG/1.png)
+![](/IMG-GPT/1.png)
