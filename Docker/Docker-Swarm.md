@@ -1,4 +1,4 @@
-# Docker Swarm ile Yüksek Kullanılabilirlikli Uygulama Dağıtımı
+# Docker Swarm Kullanımı
 
 ## Giriş ve Temel Kavramlar
 
