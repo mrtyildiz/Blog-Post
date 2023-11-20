@@ -46,9 +46,8 @@ Bu sayede kurulumda bir hata oldugu zaman, servislerin configlerine bakıldıgı
 
 
 
-+--------------------------------------------+---------------------------------------------+
 | OID Değeri                                 | Amaç                                        |
-+--------------------------------------------+---------------------------------------------+
+|--------------------------------------------|---------------------------------------------|
 | NameOID.COUNTRY_NAME                       | Ülke adı                                    |
 | NameOID.STATE_OR_PROVINCE_NAME             | Eyalet veya bölge adı                       |
 | NameOID.LOCALITY_NAME                      | Yerel alan veya şehir adı                   |
@@ -88,4 +87,4 @@ Bu sayede kurulumda bir hata oldugu zaman, servislerin configlerine bakıldıgı
 | NameOID.NAME_CONSTRAINTS                   | İsim kısıtlamaları                         |
 | NameOID.ADDRESS_POLICY                     | Adres politikası                          |
 | NameOID.TARGET_INFORMATION                 | Hedef bilgisi                             |
-+--------------------------------------------+---------------------------------------------+
+
