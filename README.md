@@ -43,3 +43,49 @@ Diğer bir konu ise pkcs'ye aşina olmak. Örneğin cryptaway'de bize hsm'den bi
 *Cryptaway'de çalışan servislerin, configlerinin incelenmesi. Hangi config ne için kullanılıyor bunun anlaşılması ve öğrenilmesi gerekiyor.
 
 Bu sayede kurulumda bir hata oldugu zaman, servislerin configlerine bakıldıgı zaman hata kolayca anlamlandırılabilir. Bu konuda müsait vakitlerde projenin kodlarını da inceleyebilir, dilerseniz yazılımcı arkadaslara da hangi config ne için kullanılıyor detaylı öğrenmek için sorabilirsiniz. Configlerin her birinde yapılan bir harf hatası kurulum hatalı olmasına sebep vereceğinden, her birinin anlamını bilmek büyük önem arz ediyor.
+
+
+
++--------------------------------------------+---------------------------------------------+
+| OID Değeri                                 | Amaç                                        |
++--------------------------------------------+---------------------------------------------+
+| NameOID.COUNTRY_NAME                       | Ülke adı                                    |
+| NameOID.STATE_OR_PROVINCE_NAME             | Eyalet veya bölge adı                       |
+| NameOID.LOCALITY_NAME                      | Yerel alan veya şehir adı                   |
+| NameOID.ORGANIZATION_NAME                  | Organizasyon adı                            |
+| NameOID.ORGANIZATIONAL_UNIT_NAME           | Organizasyon birimi adı                     |
+| NameOID.COMMON_NAME                        | Ortak ad (genellikle kişi veya cihaz adı)  |
+| NameOID.GIVEN_NAME                         | Verilen ad                                  |
+| NameOID.SURNAME                            | Soyad                                       |
+| NameOID.PSEUDONYM                          | Takma ad                                    |
+| NameOID.TITLE                              | Unvan veya başlık                           |
+| NameOID.ORGANIZATION_IDENTIFIER            | Organizasyon kimliği                       |
+| NameOID.DN_QUALIFIER                       | DN belirleyici                              |
+| NameOID.COUNTRY_OF_CITIZENSHIP             | Vatandaşlık ülkesi                         |
+| NameOID.COUNTRY_OF_RESIDENCE               | İkamet ülkesi                              |
+| NameOID.DATE_OF_BIRTH                      | Doğum tarihi                               |
+| NameOID.PLACE_OF_BIRTH                     | Doğum yeri                                |
+| NameOID.GENDER                             | Cinsiyet                                   |
+| NameOID.SERIAL_NUMBER                      | Seri numarası                              |
+| NameOID.USER_ID                            | Kullanıcı kimliği                          |
+| NameOID.EMAIL_ADDRESS                      | E-posta adresi                             |
+| NameOID.STREET_ADDRESS                     | Sokak adresi                              |
+| NameOID.UNSTRUCTURED_NAME                  | Yapısız ad                                 |
+| NameOID.UNSTRUCTURED_ADDRESS               | Yapısız adres                              |
+| NameOID.NAME                               | İsim                                      |
+| NameOID.SURNAME_GIVEN_NAME                 | Soyad ve verilen ad                        |
+| NameOID.PHONE_NUMBER                       | Telefon numarası                           |
+| NameOID.PROFESSION_NAME                    | Meslek adı                                |
+| NameOID.IDENTIFIER_REGISTRY                | Tanımlayıcı kayıt                          |
+| NameOID.DISTINGUISHED_NAME                 | Ayırt edici ad                            |
+| NameOID.PSEUDONYM                          | Takma ad                                  |
+| NameOID.ROLE                               | Rol                                       |
+| NameOID.MOBILE_PHONE_NUMBER                | Cep telefonu numarası                     |
+| NameOID.POSTAL_CODE                        | Posta kodu                                |
+| NameOID.BUSINESS_CATEGORY                  | İş kategorisi                             |
+| NameOID.TELEPHONE_NUMBER                   | Telefon numarası                           |
+| NameOID.FAX_NUMBER                         | Faks numarası                             |
+| NameOID.NAME_CONSTRAINTS                   | İsim kısıtlamaları                         |
+| NameOID.ADDRESS_POLICY                     | Adres politikası                          |
+| NameOID.TARGET_INFORMATION                 | Hedef bilgisi                             |
++--------------------------------------------+---------------------------------------------+
