@@ -28,7 +28,7 @@ Event-Driven Architecture (EDA), bir yazılım mimarisi modelidir ve sistemlerin
 * **Olay İzleme ve Yönetimi:** Sistem genelinde olayların izlenmesi ve yönetilmesi karmaşık olabilir. Bu, etkin bir izleme ve hata yönetimi altyapısı gerektirir.
 * **Tutarlılık ve Güvenilirlik:** Olayların sırası ve teslimat garantileri gibi konular, özellikle dağıtık sistemlerde dikkat edilmesi gereken önemli noktalardır.
 
-![](/IMG/Event-Driven%20Architecture.webp)
+![](https://raw.githubusercontent.com/mrtyildiz/Blog-Post/main/Software/IMG/Event-Driven%20Architecture.webp)
 
 
 ## Layered Architecture
