@@ -30,7 +30,6 @@ Event-Driven Architecture (EDA), bir yazılım mimarisi modelidir ve sistemlerin
 
 ![](https://raw.githubusercontent.com/mrtyildiz/Blog-Post/main/Software/IMG/Event-Driven%20Architecture.webp)
 
-
 ## Layered Architecture
 
 Katmanlı Mimarisi (Layered Architecture), yazılım mühendisliğinde sıkça kullanılan bir tasarım modelidir. Bu model, bir uygulamanın farklı işlevlerini ayrı katmanlara ayırarak, her katmanın belirli bir sorumluluğu olmasını sağlar. Bu yaklaşım, uygulama geliştirmeyi daha yönetilebilir ve modüler hale getirir, böylece farklı katmanlar arasında net bir ayrım sağlanır ve her katmanın bağımsız olarak geliştirilmesine ve test edilmesine olanak tanır.
@@ -59,7 +58,7 @@ Katmanlı mimari genellikle aşağıdaki katmanlardan oluşur:
 
 Katmanlı mimari, özellikle büyük ve karmaşık uygulamalar için uygun bir tasarım yaklaşımıdır. Ancak, performans ve katmanlar arası bağımlılıklar gibi potansiyel zorluklar göz önünde bulundurulmalıdır.
 
-![](./IMG/Layered%20Architecture.webp)
+![](https://raw.githubusercontent.com/mrtyildiz/Blog-Post/main/Software/IMG/Layered%20Architecture.webp)
 
 ## Monolithic Architecture
 
@@ -76,7 +75,7 @@ Monolitik mimarinin bazı özellikleri şunlardır:
 
 Monolitik mimari, küçük veya orta ölçekli projelerde ve basit uygulamalarda iyi çalışabilir, çünkü bu tür projelerde sistem karmaşıklığı ve ölçeklenme ihtiyaçları sınırlıdır. Ancak, uygulama büyüdükçe ve daha karmaşık hale geldikçe, monolitik mimarinin sınırlamaları ortaya çıkabilir. Örneğin, uygulamanın bir bölümünde yapılacak küçük bir değişiklik, tüm sistemin yeniden derlenmesini ve dağıtılmasını gerektirebilir. Ayrıca, büyük monolitik sistemlerin ölçeklenmesi zor olabilir, çünkü genellikle tüm uygulamanın tek bir sunucu örneğinde çalıştırılması gerekir.
 
-![](/IMG/Monolithic%20Architecture.webp)
+![](https://raw.githubusercontent.com/mrtyildiz/Blog-Post/main/Software/IMG/Monolithic%20Architecture.webp)
 
 Bu nedenle, büyük ve karmaşık sistemler için mikro hizmetler gibi daha modüler mimari yaklaşımlar tercih edilmeye başlanmıştır. Mikro hizmet mimarisi, uygulamanın bağımsız olarak geliştirilebilen, dağıtılabilen ve ölçeklendirilebilen küçük servislerden oluşmasını sağlar. Bu, büyük uygulamaların yönetimini, ölçeklenmesini ve güncellenmesini kolaylaştırır.
 
@@ -96,7 +95,7 @@ Mikro hizmetler mimarisinin temel özellikleri şunlardır:
 
 * **Ölçeklenebilirlik:** Her mikro hizmet, ihtiyaca göre bağımsız olarak ölçeklendirilebilir. Bu, sistem kaynaklarının daha verimli kullanımını sağlar ve yüksek talep gören servislerin performansını artırabilir.
 
-![](/IMG/Microservices%20Architecture.webp)
+![](https://raw.githubusercontent.com/mrtyildiz/Blog-Post/main/Software/IMG/Microservices%20Architecture.webp)
 
 Mikro hizmetler mimarisi, büyük ve karmaşık sistemlerin yönetilmesini kolaylaştırır, ancak aynı zamanda sistemler arası iletişim, veri tutarlılığı ve hizmetlerin keşfi gibi zorlukları da beraberinde getirir. Bu mimariyi benimseyen ekipler, bu zorlukların üstesinden gelmek için ek araçlar ve yöntemler kullanır, örneğin servis ağları, API ağ geçitleri ve merkezi yapılandırma hizmetleri.
 
@@ -104,7 +103,7 @@ Mikro hizmetler mimarisi, büyük ve karmaşık sistemlerin yönetilmesini kolay
 
 Model-View-Controller (MVC), yazılım geliştirmede kullanılan bir mimari desendir. Uygulamaları üç ana bileşene ayırarak geliştirme sürecini düzenler: Model, View ve Controller. Bu ayrım, uygulamanın farklı yönlerinin birbirinden bağımsız olarak geliştirilmesine, test edilmesine ve bakımının yapılmasına olanak tanır, böylece kodun daha temiz, daha organize ve daha kolay yönetilebilir olmasını sağlar.
 
-![](/IMG/Model-View-Controller.webp)
+![](https://raw.githubusercontent.com/mrtyildiz/Blog-Post/main/Software/IMG/Model-View-Controller.webp)
 #### Model
 
 Model, uygulamanın veri yapısını temsil eder ve doğrudan veri işleme ile ilgilenir (örneğin, veritabanı işlemleri). Verilerin nasıl saklanacağı, yönetileceği ve manipüle edileceği ile ilgili kuralları içerir. Model, uygulamanın "beyni" olarak düşünülebilir ve iş mantığı ile veri erişim katmanlarını içerir.
