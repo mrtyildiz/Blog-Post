@@ -6,7 +6,7 @@ Docker konteynerlarının boyutlarını optimize etmek ve büyük boyutlara ula�
 * Katman Optimizasyonu (Layer Optimization)
 * "Scratch" Görüntüleri ("Scratch" Images)
 
-![image](/IMG/Docker.png)
+![image](https://raw.githubusercontent.com/mrtyildiz/Blog-Post/main/Docker/img/Docker.png)
 
 ### MultiStage Builds (Çok Aşamalı Yapılar)
 
@@ -65,11 +65,11 @@ EXPOSE 8080
 ```
 "docker build . -t golangapp:latest" komutu ile docker image oluşturulmuştur.
 
-![image](/IMG/1_size.png)
+![image](https://raw.githubusercontent.com/mrtyildiz/Blog-Post/main/Docker/img/1_size.png)
 
 Oluşturulmuş olan docker image boyutunun görüntülenmesi amacıyla docker desktop kullanıyorum.
 
-![image](/IMG/2_size.png)
+![image](https://raw.githubusercontent.com/mrtyildiz/Blog-Post/main/Docker/img/2_size.png)
 
 Şimdi MultiStage Builds methodunu kullanarak daha küçük boyutta bir docker image elde edelim. Örnek dockerfile aşağıdaki gibidir;
 Bu dosyada MultiStage Builds kullanarak iki aşama tanımlayacağız:
@@ -110,7 +110,7 @@ EXPOSE 8080
 
 Belirtilen dockerfile build edilir ve yeniden docker image boyutuna bakılır.
 
-![image](/IMG/3_size.png)
+![image](https://raw.githubusercontent.com/mrtyildiz/Blog-Post/main/Docker/img/3_size.png)
 
 Görselde görüldüğü gibi yaklaşık 53 katlıkn bir küçülme ile çalışabilir bir docker image 'a sahip olduk.
 
@@ -146,7 +146,7 @@ CMD ["node", "index.js"]
 ```
 
 Belirtilen dockerfile "docker build . -t nodeapp:latest" komutu ile çalıştırılır. Oluşturulan docker image boyutu 937 MB boyutundadır.  
-![image](/IMG/4_size.png)
+![image](https://raw.githubusercontent.com/mrtyildiz/Blog-Post/main/Docker/img/4_size.png)
 
 **Optimize Edilmiş Dockerfile**
 ```dockerfile
@@ -177,7 +177,7 @@ Bu optimize işleminde;
 
 Belirtilen dockerfile "docker build . -t nodeapp:latest" komutu ile çalıştırılır. Oluşturulan docker image boyutu 914 MB boyutundadır.
 
-![image](/IMG/5_size.png)
+![image](https://raw.githubusercontent.com/mrtyildiz/Blog-Post/main/Docker/img/5_size.png)
 
 #### Katman Optimizasyonunun Avantajları
 
