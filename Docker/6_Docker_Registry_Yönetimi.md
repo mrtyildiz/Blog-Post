@@ -22,7 +22,7 @@ Görseldeki gibi "myfastapi" repositories oluşturulur.
 
 Oluşturulmuş olan repositories 'ye yüklenmesi amacıyla myfastapi image oluşturulur.
 
-![image](/img/1_registry.png)
+![image](./img/1_registry.png)
 ```docker
 # Docker imajını tag'leme
 docker tag myfastapi:latest muratyildiz66/myfastapi:latest
@@ -36,7 +36,7 @@ docker login
 docker push muratyildiz66/myfastapi:latest
 ```
 Yükleme işlemi için gerekli docker komutları kulanılır.
-![image](/img/3_registry.png)
+![image](./img/3_registry.png)
 
 ### Özel Docker Registry Kurulumu ve Yönetimi
 
@@ -47,7 +47,7 @@ Kendi projlerimizde kullanmak üzere Docker Registry kurulabilir. Özel registry
 ```bash
 docker run -d -p 5000:5000 --name my-registry registry:2
 ```
-![image](/img/4_registry.png)
+![image](./img/4_registry.png)
 
 Adım 2: İmajı Özel Registry'e Yükleme: Yerel imajınızı özel registry'ye yüklemek için aşağıdaki komutlar kullanılır.
 ```bash
@@ -58,7 +58,7 @@ docker tag myfastapi:latest localhost:5000/myfastapi:latest
 # İmajı özel registry'ye yükleme
 docker push localhost:5000/myfastapi:latest
 ```
-![image](/img/6_registry.png)
+![image](./img/6_registry.png)
 
 Özel registry 'ye yüklenmiş olan imagelerın görüntülenmesi amacıyla 5000 portuna GET isteği göndererek öğrenebilmekteyiz. Örneğin;
 
@@ -66,13 +66,13 @@ docker push localhost:5000/myfastapi:latest
 
 Docker registry içerisinde bulunan image'ları listelemek için **http://localhost:5000/v2/_catalog** adresine GET isteğinde bulunulur.
 
-![image](/img/7_registry.png)
+![image](./img/7_registry.png)
 
 2. Belirli Bir Repository'deki Tag'leri Listeleme
 
 Image tag 'ına göre GET isteğinde bulunularak Image 'a ait bütün version bilgi listelenebilmektedir.
 
-![image](/img/8_registry.png)
+![image](./img/8_registry.png)
 
 ### İmaj Versiyonlama ve İmaj Temizliği
 
@@ -86,7 +86,7 @@ docker tag myfastapi:latest myfastapi:v1.1
 ```bash
 docker tag myfastapi:v1.1 myfastapi:v1.2
 ```
-![image](/img/9_registry.png)
+![image](./img/9_registry.png)
 
 #### İmaj Temizliği
 
@@ -99,14 +99,14 @@ docker image prune -a
 ```
 Kullanılan bu komut hali hazırda kullanılmayan bütün imageların silinmesine neden olamktadır.
 
-![image](/img/10_registry.png)
+![image](./img/10_registry.png)
 
 Kullanmakta olduğumuz registry içindeki imageların silinmesi amacıyla aşağıdaki komut kullanılmaktadır.
 
 ```bash
 docker exec -it my-registry bin/registry garbage-collect /etc/docker/registry/config.yml
 ```
-![image](/img/11_registry.png)
+![image](./img/11_registry.png)
 
 özel olarak bir image silinmesi amacıyla aşağıdaki işlem adımları uygulanabilir;
 
@@ -114,7 +114,7 @@ docker exec -it my-registry bin/registry garbage-collect /etc/docker/registry/co
 
 **http://localhost:5000/v2/<image_name>/tags/list** URL adresine GET isteğinde bulunulur.
 
-![image](/img/12_registry.png)
+![image](./img/12_registry.png)
 
 Elde edilmiş tag bilgisi kullanılarak **Docker-Content-Digest** bilgisini bulmak için kullanılır.
 
@@ -122,7 +122,7 @@ Elde edilmiş tag bilgisi kullanılarak **Docker-Content-Digest** bilgisini bulm
 
 Bu kapsamda "http://localhost:5000/v2/<image_name>/manifests/latest" adresine GET isteğinde bulunulur.
 
-![image](/img/13_registry.png)
+![image](./img/13_registry.png)
 
 Buradaki önemli not ise Postman üzerinden bu isteği göndermek istedğimizde **Headers** sekmesindeki Key ve Value kısımları doldurulması gerekmetedir. 
 
