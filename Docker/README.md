@@ -34,9 +34,9 @@ Docker konusunda ileri seviye blog yazıları için bazı öneriler:
 
 ~~6. Docker Registry Yönetimi:~~
 
-    * Docker Hub ve özel Docker Registry kurulumu ve yönetimi.
-    * İmaj versiyonlama ve imaj temizliği.
-    * Docker Trusted Registry ile güvenli imaj yönetimi.
+* Docker Hub ve özel Docker Registry kurulumu ve yönetimi.
+* İmaj versiyonlama ve imaj temizliği.
+* Docker Trusted Registry ile güvenli imaj yönetimi.
 
 7. Docker İçinde Veritabanı Yönetimi:
 
