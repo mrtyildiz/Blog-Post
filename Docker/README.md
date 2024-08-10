@@ -32,7 +32,7 @@ Docker konusunda ileri seviye blog yazıları için bazı öneriler:
     * Jenkins, GitLab CI/CD veya GitHub Actions ile Docker entegrasyonu.
     * Docker konteynerlarını kullanarak otomatik test ve dağıtım süreçleri.
 
-6. Docker Registry Yönetimi:
+~~6. Docker Registry Yönetimi:~~
 
     * Docker Hub ve özel Docker Registry kurulumu ve yönetimi.
     * İmaj versiyonlama ve imaj temizliği.
