@@ -44,7 +44,7 @@ Docker konusunda ileri seviye blog yazıları için bazı öneriler:
     * Stateful uygulamalar için veri kalıcılığı.
     * Docker volume ve bind mounts kullanımı.
 
-8. Docker Performans Optimizasyonu:
+8. ~~Docker Performans Optimizasyonu:~~
 
     * Docker konteynerlarının performans optimizasyonu.
     * Docker imaj boyutlarını küçültme teknikleri.
