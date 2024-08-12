@@ -2,7 +2,7 @@
 
 Docker konusunda ileri seviye blog yazıları için bazı öneriler:
 
-1. Docker ile Mikroservis Mimarisi:
+1. ~~Docker ile Mikroservis Mimarisi:~~
 
     * Mikroservisler nedir ve monolitik yapılardan farkları nelerdir?
     * Docker ile mikroservis mimarisi nasıl oluşturulur?
