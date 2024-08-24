@@ -7,6 +7,7 @@ Docker containerları gerek birbirleriyle gerekse dış networkle iletişim kurm
 * Overlay
 * Macvlan
 
+![image](./img/n5.png)
 ## Docker'da Network Modelleri
 
 ### Bridge Network Modeli
