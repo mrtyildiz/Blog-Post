@@ -14,7 +14,7 @@ Docker konusunda ileri seviye blog yazıları için bazı öneriler:
     * Kubernetes'de Pod, Service, Deployment ve ReplicaSet kavramları.
     * Helm kullanarak Kubernetes üzerinde uygulama dağıtımı.
 
-3. Docker Networking Derinlemesine:
+3. ~~Docker Networking Derinlemesine:~~
 
     * Docker'da ağ modelleri: bridge, overlay, macvlan.
     * Docker Compose ile çoklu konteyner ağ yapılandırmaları.
