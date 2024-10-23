@@ -21,3 +21,12 @@
 | İleri Seviye            | Otomasyon ve Orkestrasyon                        | Argo CD                                        |
 | İleri Seviye            | Güvenlik ve Uygulama Güvenliği                   | HashiCorp Vault, SonarQube                     |
 | İleri Seviye            | Performans ve Maliyet Optimizasyonu              | AWS Cost Explorer, AWS Trusted Advisor         |
+
+Decoding DevOps success: 
+ 
+- Embrace Linux mastery 
+- Dive deep into Kubernetes 
+- Leverage the Cloud (AWS, Azure, GCP) 
+- Containerization is king (Docker, Kubernetes) 
+- Streamline with CI/CD Pipelines 
+- Infrastructure as Code
