@@ -30,3 +30,5 @@ Decoding DevOps success:
 - Containerization is king (Docker, Kubernetes) 
 - Streamline with CI/CD Pipelines 
 - Infrastructure as Code
+- orbstack
+- 
