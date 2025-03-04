@@ -1,7 +1,7 @@
 # API Güvenliği - 2
 
 Önceki blog yazımda API güvenliği konusuna giriş yapmıştım. Bu konu özelinde devam etmek üzere yazıyorum.
-Önceki yazıma [Buradan](https://www.google.com) ulaşabilirsiniz.
+Önceki yazıma [Buradan](https://medium.com/@muratasnb/api-g%C3%BCvenli%C4%9Fi-692300eda36a) ulaşabilirsiniz.
 
 ### API Güvenliği - Information Leak
 
