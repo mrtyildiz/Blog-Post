@@ -4,7 +4,7 @@ Bilişim sistemlerinde **API (Application Programming Interface)** uygulamaları
 
 Bu geniş kullanım alanı ile birlikte **siber saldırılar için de hedef** haline gelmektedir. API uygulamalarının güvenliğinin sağlanması amacıyla aşağıdaki API günvenlik kriterlerine dikkat edilmelidir.
 
-![Golang API](./IMG/3.png)
+![Golang API](./img/3.png)
 
 ## **API Güvenliği ve Kritik Riskler**  
 
