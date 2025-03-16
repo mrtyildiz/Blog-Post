@@ -3,6 +3,8 @@
 Önceki blog yazımda API güvenliği konusuna giriş yapmıştım. Bu konu özelinde devam etmek üzere yazıyorum.
 Önceki yazıma [Buradan](https://medium.com/@muratasnb/api-g%C3%BCvenli%C4%9Fi-692300eda36a) ulaşabilirsiniz.
 
+![Golang API](./img/3.png)
+
 ### API Güvenliği - Information Leak
 
 #### Information Leak (Bilgi Sızdırma) Nedir?
