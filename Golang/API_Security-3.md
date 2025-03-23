@@ -1,6 +1,8 @@
 # API Güvenliği - 3
 
-Selamlar API güvenliği konusundaki son blog yazım bir önceki blog yazıma [buradan](https://www.google.com) ulaşabilirsiniz.
+Selamlar API güvenliği konusundaki son blog yazım bir önceki blog yazıma [buradan](https://medium.com/@muratasnb/api-g%C3%BCvenli%C4%9Fi-2-b33361adfebf) ulaşabilirsiniz.
+
+![Golang API](./img/3.png)
 
 ## API Güvenliği - Insecure Cookies, Path Traversal ve Rate Limiting
 
