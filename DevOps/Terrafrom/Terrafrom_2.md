@@ -1,6 +1,6 @@
 # Terrafrom ie AWS Storage İşlemi
 
-Selamlar! Terraform üzerine yazmaya başladığım bu yazı dizisinde, Storage işleminin nasıl gerçekleşebileceğini ele alan bir blog yazısıdır. Bir önceki [Buradan](https://xxxx) yazıma buradan ulaşabilirsiniz.
+Selamlar! Terraform üzerine yazmaya başladığım bu yazı dizisinde, Storage işleminin nasıl gerçekleşebileceğini ele alan bir blog yazısıdır. Bir önceki [Buradan](https://medium.com/@muratasnb/terrafrom-infrastructure-as-code-iac-kavram%C4%B1-a9e60b0bd7f8) yazıma buradan ulaşabilirsiniz.
 
 
 ![Terrafrom](./img/1.png)
