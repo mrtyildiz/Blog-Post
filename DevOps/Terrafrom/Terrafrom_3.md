@@ -1,6 +1,6 @@
 # 🌍 Terraform ile AWS Üzerinde Değişken Kullanımı ve Değişken Tipleri
 
-Selamlar bu yazımda Terrafrom üzerinde değişkenlerin nasıl kullanıılabileceği konusunu anlatmaktayım. Terrafrom hakkındaki bir önceki yazıma [Buradan](https://xxxx) ulaşabilirsiniz. 
+Selamlar bu yazımda Terrafrom üzerinde değişkenlerin nasıl kullanıılabileceği konusunu anlatmaktayım. Terrafrom hakkındaki bir önceki yazıma [Buradan](https://medium.com/@muratasnb/terrafrom-ie-aws-storage-i%CC%87%C5%9Flemi-51cce21ff7b3) ulaşabilirsiniz. 
 
 ![Terrafrom](./img/1.png)
 
