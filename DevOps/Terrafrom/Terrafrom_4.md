@@ -1,6 +1,6 @@
 # 🌱 Terraform Resource Meta Arguments: count VS for_each
 
-Selamlar bu blog yazısında ``count`` ve ``for_each`` meta argümanlarından bahsedeceğim. Bir önceki blog yazıma [Buradan](https://xxxx) ulaşabilirsiniz. Terraform ile cloud kaynaklarını tanımlanırken, kaynaklakların birden fazla kopyasını oluşturuken kullanılmaktadır.
+Selamlar bu blog yazısında ``count`` ve ``for_each`` meta argümanlarından bahsedeceğim. Bir önceki blog yazıma [Buradan](https://medium.com/@muratasnb/terraform-ile-aws-%C3%BCzerinde-de%C4%9Fi%C5%9Fken-kullan%C4%B1m%C4%B1-ve-de%C4%9Fi%C5%9Fken-tipleri-b25f1e79aeaa) ulaşabilirsiniz. Terraform ile cloud kaynaklarını tanımlanırken, kaynaklakların birden fazla kopyasını oluşturuken kullanılmaktadır.
 
 ![Terrafrom](./img/1.png)
 
