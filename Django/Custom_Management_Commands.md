@@ -11,6 +11,8 @@ Django 'nun güçlü yanları;
 
 Instagram, Pinterest, Disqus gibi birçok büyük ölçekli platform Django ile geliştirilmiştir.
 
+![](./img/Django-6.png)
+
 Django 'nun **Custom Management Commands** özelliği ile kendi özel komutlarımız tanımlayabiliriz. Bu durum tek satır komut ile bakım, onarım ve test süreçleri kolaylaştırılabilir. Bu sayede;
 * Veri temizleme (Eski verilerin temizlenmesi)
 * API entegrasyonu (Anlık dış API adreslerinden veri çekilip veri tabanına kaydedilebilir)
